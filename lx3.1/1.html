@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>扑克牌</title>
+<style type="text/css">
+	.card{
+		width:125px;
+		height:170px;
+		border:1px solid gray;
+		position:absolute;
+		}
+		
+	span{
+		display:block;
+		width:20px;
+		height:21px;
+		background:url(00.gif) no-repeat;
+		position:absolute;
+		}
+		
+	b{
+		display:block;
+		width:15px;
+		height:10px;
+		position:absolute;
+		background:url(00.gif) no-repeat;
+		}
+		
+	em{
+		display:block;
+		width:15px;
+		height:10px;
+		position:absolute;
+		background:url(00.gif) no-repeat;
+		}
+		
+	.N1{left:1px;    top:8px;}
+	.First{left:1px;  top:21px;}
+	
+	.A1{left:20px; top:20px;}
+	.A2{left:20px; top:57px;}
+	.A3{left:20px; top:94px;}
+	.A4{left:20px; top:131px;}
+	
+	.B1{left:54px; top:38px;}
+	.B2{left:54px; top:117px;}
+	
+	.C1{left:86px; top:20px;}
+	.C2{left:86px; top:57px;}
+	.C3{left:86px; top:94px;}
+	.C4{left:86px; top:131px;}
+	
+	.Last{bottom:20px; right:0px;}
+	.N2{bottom:8px; right:5px;}
+	
+	.down1{
+		background-position:0 -19px;
+		}
+	
+	.n10{
+		background-position:-197px 0;
+		}
+	
+	.n10_h{
+		background-position:-197px -22px;
+		}
+	
+	.small_up1{
+		background-position:0 -41px;
+		}
+		
+	.small_down1{
+		background-position:0 -51px;
+		}
+</style>
+</head>
+
+<body>
+	<div class="card">
+    	<div class="front">
+        	<b class="N1 n10"></b>
+            <em class="First small_up1"></em>
+            
+            <span class="A1 up1"></span>
+            <span class="A2 up1"></span>
+            <span class="A3 down1"></span>
+            <span class="A4 down1"></span>
+            
+            <span class="B1 up1"></span>
+            <span class="B2 down1"></span>
+            
+            <span class="C1 up1"></span>
+            <span class="C2 up1"></span>
+            <span class="C3 down1"></span>
+            <span class="C4 down1"></span>
+            
+            <em class="Last small_down1"></em>
+            <b class="N2 n10_h"></b>
+        </div>
+    </div>
+
+</body>
+</html>

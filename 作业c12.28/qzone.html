@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>qzone</title>
+    <style type="text/css">
+		*{
+			padding:0px;
+			margin:0px auto;
+			}
+		body{
+			background-image:url(bg3.jpg);
+			background-size:cover;
+			backgrouund-position:0px -80px;
+			}
+		#logo{
+			width:251px;
+			height:98px;
+			background-image:url(qzone-login-logo.32.png);
+			background-repeat:no-repeat;
+			background-size:251px 98px;
+			margin:0px 0px 0px 340px;
+			float:left;
+			}
+		.login{
+			width:419px;
+			height:317px;
+			background-color:#fff;
+			border:2px solid #eee;
+			margin:170px 0px 0px 780px;
+			}
+		.nav{
+			width:100%;
+			height:50px;
+			border-bottom:2px solid #eee;
+			}
+    	span{
+			display:inline-block;
+			height:45px;
+			line-height:45px;
+			margin-left:60px;
+			}
+		.span2{
+			margin-left:120px;
+			padding-bottom:5px;
+			border-bottom:2px solid black;
+			}
+		.content{
+			width:418px;
+			height:200px;
+			}
+		#login_top{
+			margin:40px auto;
+			width:272px;
+			}
+		.qqdiv,.pwddiv{
+			width:272px;
+			height:42px;
+			margin-bottom:13px;
+			background:url(loninp.png) no-repeat -1px -1px;
+			}
+		
+		#qq,#pwd{
+			background:none;
+			width:258px;
+			height:18px;
+			line-height:18px;
+			padding:11px 0px 11px 10px;
+			border:0px  none;
+			color:#333;
+			}
+		.subdiv{
+				width:272px;
+				height:40px;
+			}
+		#sub{
+			width:115px;
+			height:35px;
+			background:url(loninp.png) no-repeat 0px -90px;
+			border:0px none;
+			font-size:18px;
+			color:#fff;
+			font-weight:bold;
+			}
+		#login_bottom{
+			width:410px;
+			height:16px;
+			text-align:right;
+			font-size:12px;
+			}
+		#login_bottom a{
+			color:#333;
+			text-decoration:none;
+			}
+		.dotted{
+			margin:0px 5px;
+			color:#666;
+			}
+    </style>
+    <script>
+    	window.onload=function(){
+			var num=Math.floor(Math.random()*4)+1;
+			document.body.style.backgroundImage="url('bg"+num+".jpg')";
+			document.body.style.backgroundSize="cover";
+			}
+    </script>
+</head>
+
+<body>
+	<div class="logo" id="logo"></div>
+	<div class="login">
+    	<div class="nav">
+    	<span>快速登录</span><span class="span2">账号密码登录</span>
+	</div>
+    <div class="content">
+    	<div id="login_top">
+        	<form action="" method="">
+            	<div class="qqdiv">
+                	<input type="text" name="qq" id="qq" placeholder="支持QQ号、邮箱、手机号登录"><br/>
+                </div>
+                <div class="pwddiv">
+                	<input type="password" name="pwd" id="pwd" placeholder="密码"><br/>
+                </div>
+                 <div class="subbiv">
+                	<input type="submit" value="登 录" id="sub">
+                </div>
+            </form>
+    </div>
+    <div id="login_bottom">
+    	<a id="forgetpwd" class="link" target="_blank">忘了密码</a>
+        <span class="dotted">|</span>
+        <a class="link" target="_blank">注册新账号</a>
+        <span class="dotted">|</span>
+        <a id="feedack-web" class="link" targe="_blank">意见反馈</a>
+    </div>
+</body>
+</html>
+ 

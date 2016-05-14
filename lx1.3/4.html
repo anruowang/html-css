@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>无标题文档</title>
+    <style type="text/css">
+    	*{
+			padding:0px;
+			margin:0px auto;
+			}
+		body{
+			margin:0;
+			}
+		.header{
+			width:1200px;
+			background-color:#333;
+			}
+		.nav{
+			height:60px;
+			}
+		.nav_h{
+			float:left;
+			}
+		#nav_position{
+			position:relative;
+			}
+		.nav_a{
+			display:inline-block;
+			line-height:60px;
+			padding:0px 30px;
+			color:#fff;
+			text-decoration:none;
+			}
+		.nav_hot{
+			position:absolute;
+			background:url(hot.jpg) no-repeat;
+			width:28px;
+			height:11px;
+			top:10px;
+			
+			}
+		.main{
+			margin-top:10px;
+			padding-left:120px;
+			}
+		.main_a{
+			float:left;
+			width:280px;
+			height:240px;
+			border:1px solid #999;
+			border-radius:0px 0px 5px 5px;
+			background-color:#eee;
+			text-decoration:none;
+			}
+		.main_tuijian{
+			position:absolute;
+			background-color:#F60;
+			color:#fff;
+			font-size:12px;
+			padding:3px 5px;/*变大*/
+			}
+		.main_div{
+			position:relative;
+			}
+		.main_vip{
+			position:absolute;
+			background:url(vip.jpg) no-repeat;
+			width:36px;
+			height:36px;
+			top:0px;
+			right:0px;
+			}
+		.main_h{
+			text-align:center;
+			color:#333;
+			line-height:50px;
+			
+			}
+		.main_span{
+			float:right;
+			color:#999;
+			font-size:12px;
+			padding-right:15px;
+			}
+			
+    </style>
+</head>
+
+<body>
+	<div class="header">
+    	<div class="nav">
+        	<h3 class="nav_h">
+            	<a href="" class="nav_a">华硕</a>
+            </h3>
+            <h3 class="nav_h">
+            	<a href="" class="nav_a">戴尔</a>
+            </h3>
+            <h3 class="nav_h" id="nav_position">
+            	<a href="" class="nav_a" >外星人</a><i class="nav_hot"></i>
+            </h3>
+        </div>    
+    </div>
+    <div class="main">
+    	<a href="" class="main_a">
+        	<div class="main_div">
+                <span class="main_tuijian">推荐</span>
+                <img width="280" height="160" src="cpu.png" alt="外星人" class="main_img"/>
+                <i class="main_vip"></i>
+            </div>
+            <h5 class="main_h">外星人笔记本，等你来超神</h5>
+                <div class="main_tips">
+                    <span class="main_span">10086人赞</span>           
+       		 </div>
+       </a>
+    </div>
+</body>
+</html>
